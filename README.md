@@ -1,6 +1,6 @@
 ## react-tailwind-starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and has [tailwindcss](https://tailwindcss.com) wired up.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and has [tailwindcss](https://tailwindcss.com) wired up. Used stylelint and [this stackoverflow post](https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker) to configure vscode css lint rules.
 
 ## Available Scripts
 
