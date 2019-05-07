@@ -1,6 +1,12 @@
 ## react-tailwind-starter
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), and has [tailwindcss](https://tailwindcss.com) wired up. Used stylelint and [this stackoverflow post](https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker) to configure vscode css lint rules.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+It has been updated to include:
+
+- [tailwindcss](https://tailwindcss.com)
+- [stylelint](https://stylelint.io) via [this stackoverflow post](https://stackoverflow.com/questions/47607602/how-to-add-a-tailwind-css-rule-to-css-checker)
+- [riteway testing](https://github.com/ericelliott/riteway)
 
 ## Available Scripts
 
@@ -16,7 +22,15 @@ You will also see any lint errors in the console.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.<br>
+Launches the riteway test runner.
+
+### `npm run watch`
+
+Launches the riteway test runner in watch mode.
+
+### `npm test:react`
+
+Launches the default CRA test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
